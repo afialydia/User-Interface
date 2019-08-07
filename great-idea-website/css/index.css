@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+}
+
+
+.container{
+	width:975px;
+	margin:auto;	
+	padding:50px;
+			}
+
+header nav {
+	color:lightgray;
+	margin: 35px 60px 60px;
+	text-align:center;
+}
+nav a{
+	text-decoration:none;
+	color:grey;
+	font-size:13px;
+	letter-spacing:1.5px;
+	margin-left:10px;
+	margin-right:10px;
+  }
+
+
+button{
+	background-color:white !important;
+	color:black;
+	width:auto;
+	height:auto;
+	border-block: 8px;
+	font-size:16px;
+	margin-top:2%;
+  }
+  
+
+h1{
+	font-size:50px;
+	color:black;
+  }
+ 
+ 
+  nav a:hover{ /*styles are applied when a user hovers over this element*/
+	color:#4682B4;
+	text-decoration:overline;
+  }
+  
+  .headerimg{
+	width:35%;
+	position: relative;
+  }
+
+  .top-page{
+	position: inline;
+  }
+
+  .bottom {
+	  position: inline;
+	  width: 28%;
+	  height: 150px;
+	  margin:10px;
+	  display: inline-block;
+
+
+  }
+
+  .t {
+	position: inline;
+	width: 40%;
+	height: 100px;
+	margin: 10px;
+	padding:5px;
+	display: inline-block;
+  }
+
+  .Contact{
+	position: inline;
+	width: 40%;
+	height: 100px;
+	margin-bottom: 10px;
+	padding:5px;
+	display: inline-block;
+  }
+
+  .top-page{
+	position: inline;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 10px;
+	padding:5px;
+	display: inline-block;
+  }
+  .box{
+	position: inline;
+	width: 40%;
+	height: 100px;
+	margin-bottom: 10px;
+	padding:5px;
+	display: inline-block;
+  }
+  .top-image{
+	  float:right;
+  }
